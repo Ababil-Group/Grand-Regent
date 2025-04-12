@@ -31,7 +31,7 @@ const HeartOf = () => {
           <div>
             <Image
               className="h-auto w-full rounded-lg border-8 border-secondary-gr"
-              src="/homepage/At the Core of Oddre.jpg"
+              src="/Homepage/At the Core of Oddre.jpg"
               alt="At the heart of Downtown Manama"
               height={500}
               width={750}
