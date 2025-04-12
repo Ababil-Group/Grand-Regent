@@ -93,7 +93,7 @@ const SpecialOffersPage = () => {
             </p>
             <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
               <strong>
-                For booking, Email us on Email: info@grandregent.eu.
+                For booking, Email us on Email: info@grandregent.eu
               </strong>
             </p>
           </div>
