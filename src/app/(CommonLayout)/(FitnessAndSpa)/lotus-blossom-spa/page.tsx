@@ -36,7 +36,7 @@ const LotusBlossomSpaPage = () => {
       <section className="py-10">
         <div className="container space-y-5">
           <p className="mb-5 text-center text-lg font-bold text-secondary-gr">
-            Email: fo@themerchanthouse.bh
+            Email: info@grandregent.eu
           </p>
 
           <h3 className="mb-2 text-center text-3xl font-bold text-secondary-gr">
