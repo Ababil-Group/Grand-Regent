@@ -11,21 +11,20 @@ const HeartOf = () => {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
           <div>
             <p className="mb-7 text-lg font-medium text-secondary-gr">
-              Located at Rådhusgade 21, the Grand Regent is based in the heart
-              of Odder, Denmark. Being just a short walk from the charming high
-              street and the town center, this boutique hotel puts visitors
-              within easy reach of the area’s activities and landmarks.
+              Located on Thamel Marg, Thamel-26, Kathmandu 44600, Nepal, our
+              boutique hotel is nestled in the vibrant heart of Kathmandu’s most
+              iconic neighborhood. Just a short stroll from bustling shops,
+              cafés, cultural spots, and historic sites, it offers travelers the
+              perfect launchpad to explore the city’s unique rhythm.
             </p>
             <p className="mb-7 text-lg font-medium text-secondary-gr">
-              Odder has grown from a small market town founded in the 14th
-              century into a thriving town of well-proportioned houses with a
-              character that is traditional yet decidedly modern. Many shops,
-              restaurants, and cultural attractions reflect the region&apos;s
-              traditional trading history and artistic spirit. The Grand Regent
-              serves as the perfect base for exploring the unique shopping
-              opportunities and gastronomic delights of Odder, making it a
-              valuable asset for tourists looking for a tranquil and adventurous
-              getaway, respectively.
+              Thamel has long been known as the tourism hub of Kathmandu — a
+              lively area where tradition and modernity meet. For decades, it
+              has attracted travelers from around the world with its eclectic
+              mix of local markets, rooftop restaurants, trekking gear shops,
+              art galleries, and live music venues. Rooted in centuries of
+              Newari culture yet open to global influences, Thamel represents
+              the spirit of Nepal: warm, welcoming, and full of discovery.
             </p>
           </div>
           <div>

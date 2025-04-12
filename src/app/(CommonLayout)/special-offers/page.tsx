@@ -52,17 +52,16 @@ const SpecialOffersPage = () => {
               Spa, designed to rejuvenate your body and mind.
             </p>
             <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              Throughout your stay, enjoy a 10% discount on Foods & Beverages
-              and a 15% discount at our Lotus Blossom Spa.
+              Throughout your stay, enjoy a 10% discount on Food & Beverages and
+              a 15% discount at our Lotus Blossom Spa.
             </p>
             <h6 className="mb-7 text-center text-2xl">
-              Use Promocode: GRK25 to Book Now
+              To claim this offer, please send us a confirmation email after
+              booking with the promo code GRK25 included in the message.
             </h6>
             <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
               <strong>contact us via email at </strong>
-              contact us via email at info@grandregent.np.
-              <br />
-              Terms and Conditions apply.
+              📧 Email: info@grandregent.eu Terms and conditions apply.
             </p>
           </div>
           <div className="min-h-screen w-full bg-escape-bg bg-cover bg-fixed bg-center bg-no-repeat lg:min-h-full"></div>

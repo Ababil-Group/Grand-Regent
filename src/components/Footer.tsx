@@ -32,7 +32,7 @@ const Footer = () => {
             href="emailto:info@grandregent.eu"
           >
             <FaEnvelope />
-            fo@themerchanthouse.bh
+            info@grandregent.eu
           </Link>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.109334476869!2d85.30863167614801!3d27.713910325200715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fd08d71809%3A0x3a162e60c945c656!2sThamel%20Marg%2026%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sbd!4v1744459104390!5m2!1sen!2sbd"

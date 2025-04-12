@@ -156,7 +156,7 @@ const ContactUsPage = () => {
                   Reservations at Grand Regent
                 </AccordionTrigger>
                 <AccordionContent className="text-lg font-semibold text-secondary-gr">
-                  Rådhusgade 21, 8300 Odder, Denmark <br /> Email:
+                  Thamel Marg, Thamel-26, Kathmandu 44600, Nepal <br /> Email:
                   info@grandregent.eu
                 </AccordionContent>
               </AccordionItem>

@@ -37,9 +37,9 @@ const FitnessCenterPage = () => {
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
             Open 24/7 exclusively for hotel guests.
           </p>
-          <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
+          {/* <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
             Personal Training Session: 60 minutes | BHD 15+++
-          </p>
+          </p> */}
         </div>
       </section>
 

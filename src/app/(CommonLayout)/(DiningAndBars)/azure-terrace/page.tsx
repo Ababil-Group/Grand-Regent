@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   Table,
   TableBody,
@@ -35,32 +34,25 @@ const AzureTerracePage = () => {
             experience with indoor seating and an enchanting garden terrace.
           </p>
 
-          <Image
-            className="mx-auto mt-10 h-auto w-auto"
-            src="/Dinig & Bars/Azure Terrace/Azure Terrace.jpg"
-            alt="Food"
-            height={900}
-            width={600}
-          />
+     
         </div>
       </section>
 
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container">
           <h2 className="mb-10 text-center text-5xl font-bold text-secondary-gr">
             Our Inspiration for Azure Terrace
           </h2>
 
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
-            At Grand Regent, we combine Mediterranean, Asian, European, and
-            local culinary traditions to create a vibrant dining experience.
+            Inspired by the vibrant flavors of Nepal, Azure Terrace blends  local culinary traditions to create a vibrant dining experience.
             Featuring dishes like Paella, Moussaka, Stegt Flæsk, and Rugbrød,
             our menu celebrates fresh, seasonal ingredients. With a
             floral-inspired design and serene outdoor terrace, Azure Terrace is
             Odder’s premier destination for all-day dining.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <div className="container">
