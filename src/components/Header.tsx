@@ -120,7 +120,6 @@ const Header = () => {
     }
   };
 
-
   return (
     <header className="sticky top-0 z-50 bg-primary-gr py-4 text-white">
       <nav className="container flex items-center justify-between">

@@ -24,7 +24,7 @@ const Footer = () => {
               href="https://maps.app.goo.gl/ZyS4TvxwHhm9kRGE7"
               target="_blank"
             >
-              Rådhusgade 21, 8300 Odder, Denmark
+              Thamel Marg, Thamel-26, Kathmandu 44600, Nepal
             </Link>
           </p>
           <Link
@@ -34,9 +34,8 @@ const Footer = () => {
             <FaEnvelope />
             fo@themerchanthouse.bh
           </Link>
-
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.4901019693534!2d10.14742817709822!3d55.97553777481305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c42d082d5383b%3A0x44e2a3b91727dcec!2sR%C3%A5dhusgade%2021%2C%208300%20Odder%2C%20Denmark!5e0!3m2!1sen!2sbd!4v1737698984014!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.109334476869!2d85.30863167614801!3d27.713910325200715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fd08d71809%3A0x3a162e60c945c656!2sThamel%20Marg%2026%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sbd!4v1744459104390!5m2!1sen!2sbd"
             width="100%"
             height="200"
             style={{ border: "0px" }}
