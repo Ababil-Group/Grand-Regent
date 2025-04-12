@@ -26,7 +26,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 
 interface NavLink {
   label: string;
@@ -51,13 +51,12 @@ const Header = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const menuRef = useRef<HTMLUListElement | null>(null);
   const [openModal, setOpenModal] = useState(false);
-  const [, setSubject] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const {
     register,
     handleSubmit,
     reset,
-    setValue,
+    control,
     formState: { errors },
   } = useForm<FormData>();
 
@@ -90,30 +89,37 @@ const Header = () => {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch("/api/send-email", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify({
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          subject: data.subject,
+          message: "New booking request from website",
+        }),
       });
 
       if (!response.ok) {
         throw new Error("Failed to send booking request");
       }
 
-      console.log("Email sent successfully");
+      // Reset form and close modal on success
       reset();
       setOpenModal(false);
+      console.log("Booking request sent successfully");
     } catch (error) {
       console.error("Error sending booking request:", error);
+      // Optional: Show error message
+      alert("Failed to send booking request. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
   };
-  const closeModal = () => {
-    setOpenModal(false);
-  };
+
 
   return (
     <header className="sticky top-0 z-50 bg-primary-gr py-4 text-white">
@@ -232,7 +238,7 @@ const Header = () => {
         <div className="hidden basis-1/2 items-center justify-end xl:flex xl:basis-[10%]">
           <Dialog open={openModal} onOpenChange={setOpenModal}>
             <DialogTrigger asChild>
-              <Button onClick={() => setOpenModal(true)}>BOOK NOW</Button>
+              <Button>BOOK NOW</Button>
             </DialogTrigger>
             <DialogContent>
               <DialogHeader>
@@ -246,6 +252,7 @@ const Header = () => {
                 onSubmit={handleSubmit(onSubmit)}
                 className="mx-auto max-w-2xl space-y-5"
               >
+                {/* Name fields */}
                 <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                   <div>
                     <Input
@@ -277,6 +284,7 @@ const Header = () => {
                   </div>
                 </div>
 
+                {/* Email field */}
                 <div>
                   <Input
                     {...register("email", {
@@ -296,48 +304,57 @@ const Header = () => {
                   )}
                 </div>
 
+                {/* Subject select */}
                 <div>
-                  <Select
+                  <Controller
                     name="subject"
-                    onValueChange={setSubject}
-                    required
-                    disabled={isSubmitting}
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select One" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="General Enquiry">
-                        General Enquiry
-                      </SelectItem>
-                      <SelectItem value="Room Reservation">
-                        Room Reservation
-                      </SelectItem>
-                      <SelectItem value="Food and Beverage">
-                        Food and Beverage
-                      </SelectItem>
-                      <SelectItem value="Table booking">
-                        Table booking
-                      </SelectItem>
-                      <SelectItem value="Group booking">
-                        Group booking
-                      </SelectItem>
-                      <SelectItem value="Meeting and Events">
-                        Meeting and Events
-                      </SelectItem>
-                      <SelectItem value="Spa Reservation">
-                        Spa Reservation
-                      </SelectItem>
-                      <SelectItem value="Corporate">Corporate</SelectItem>
-                    </SelectContent>
-                  </Select>
+                    control={control}
+                    rules={{ required: "Please select a subject" }}
+                    render={({ field }) => (
+                      <Select
+                        onValueChange={field.onChange}
+                        value={field.value}
+                        required
+                        disabled={isSubmitting}
+                      >
+                        <SelectTrigger>
+                          <SelectValue placeholder="Select One" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="General Enquiry">
+                            General Enquiry
+                          </SelectItem>
+                          <SelectItem value="Room Reservation">
+                            Room Reservation
+                          </SelectItem>
+                          <SelectItem value="Food and Beverage">
+                            Food and Beverage
+                          </SelectItem>
+                          <SelectItem value="Table booking">
+                            Table booking
+                          </SelectItem>
+                          <SelectItem value="Group booking">
+                            Group booking
+                          </SelectItem>
+                          <SelectItem value="Meeting and Events">
+                            Meeting and Events
+                          </SelectItem>
+                          <SelectItem value="Spa Reservation">
+                            Spa Reservation
+                          </SelectItem>
+                          <SelectItem value="Corporate">Corporate</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    )}
+                  />
                   {errors.subject && (
                     <p className="mt-1 text-sm text-red-500">
-                      Please select a subject
+                      {errors.subject.message}
                     </p>
                   )}
                 </div>
 
+                {/* Submit button */}
                 <div className="flex items-center justify-center">
                   <Button
                     type="submit"
