@@ -28,11 +28,12 @@ const RegentCafePage = () => {
       <section className="pt-20">
         <div className="container">
           <h2 className="mb-10 text-center text-5xl font-bold text-secondary-gr">
-            Dining & Bars
+            Dining & Bars at Grand Regent
           </h2>
 
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
-            Take a break and relax at Dining & Bars in Grand Regent.
+            Take a break from downtown Odder and relax at Regent Café in Grand
+            Regent.
           </p>
           {/* <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
             Enjoy homemade cakes, fresh coffee, juices, sandwiches, and salads
