@@ -44,7 +44,7 @@ const OurLibraryPage = () => {
           </section>
         </div>
       </section>
-
+{/* 
       <section className="py-10">
         <div className="container">
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
@@ -57,7 +57,7 @@ const OurLibraryPage = () => {
             from 8 AM to 1 AM.
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section className="pt-10">
         <div className="container">
