@@ -20,7 +20,7 @@ const RegentCafePage = () => {
       <section className="bg-cafe-bg bg-cover bg-bottom bg-no-repeat">
         <div className="container flex min-h-[610px] items-center justify-center">
           <h1 className="mb-14 text-center text-5xl font-bold text-white">
-            Regent Café
+            Dining & Bars
           </h1>
         </div>
       </section>
@@ -28,18 +28,17 @@ const RegentCafePage = () => {
       <section className="pt-20">
         <div className="container">
           <h2 className="mb-10 text-center text-5xl font-bold text-secondary-gr">
-            Regent Café at Grand Regent
+            Dining & Bars
           </h2>
 
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
-            Take a break from downtown Odder and relax at Regent Café in Grand
-            Regent.
+            Take a break and relax at Dining & Bars in Grand Regent.
           </p>
-          <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
+          {/* <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
             Enjoy homemade cakes, fresh coffee, juices, sandwiches, and salads
             in a stylish setting adorned with contemporary art, perfect for
             casual meetings or afternoon tea.
-          </p>
+          </p> */}
           <section className="pt-10">
             <div className="container px-10">
               <SliderCarousel />

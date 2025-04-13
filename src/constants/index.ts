@@ -13,14 +13,12 @@ export const navLinks: NavLink[] = [
 
   {
     label: "Dining & Bars",
-    subLinks: [
-      { label: "Azure Terrace", href: "/azure-terrace" },
-      { label: "Regent Café", href: "/regent-cafe" },
-      { label: "Our Library", href: "/our-library" },
-      // { label: "Conferences & Events", href: "/conferences-and-events" },
-    ],
+    href: "/Dining-&-Bars",
   },
-
+  {
+    label: "Our Library",
+    href: "/our-library",
+  },
   {
     label: "Fitness & Spa",
     subLinks: [

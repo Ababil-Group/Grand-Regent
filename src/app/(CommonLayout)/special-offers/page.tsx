@@ -68,38 +68,20 @@ const SpecialOffersPage = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="min-h-screen w-full bg-star-bg bg-cover bg-fixed bg-center bg-no-repeat lg:min-h-full"></div>
+          <div className="min-h-screen w-full bg-business-lunch-bg bg-cover bg-fixed bg-center bg-no-repeat lg:min-h-full"></div>
           <div className="p-20">
             <h3 className="mb-7 text-center text-4xl font-semibold text-secondary-gr">
-              Under the stars
+              Business Lunch at Regent Café
             </h3>
-            <p className="mb-7 text-center text-lg font-bold text-secondary-gr">
-              Brunch at Azure Terrace
-            </p>
             <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              Join us for a delightful à la carte brunch under the stars at
-              Azure Terrace, paired with refreshing beverages and live
-              entertainment.
-            </p>
-
-            <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              <strong>Every Saturday from 7:30 PM to 11 PM.</strong>
-            </p>
-            <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              <strong>NPR 2,500 for soft drinks</strong>
-            </p>
-            <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              <strong>NPR 3,200 for house beverages</strong>
-            </p>
-            <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-              <strong>
-                For booking, Email us on Email: info@grandregent.eu
-              </strong>
+              Elevate your business meetings with our unique dining experience
+              starting from NPR 1,200 net per person, available from Noon until
+              3 PM at the charming Regent Café
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="p-20">
             <h3 className="mb-7 text-center text-4xl font-semibold text-secondary-gr">
               Business Lunch at Regent Café
@@ -111,7 +93,7 @@ const SpecialOffersPage = () => {
             </p>
           </div>
           <div className="min-h-screen w-full bg-business-lunch-bg bg-cover bg-fixed bg-center bg-no-repeat lg:min-h-full"></div>
-        </div>
+        </div> */}
       </section>
     </main>
   );
