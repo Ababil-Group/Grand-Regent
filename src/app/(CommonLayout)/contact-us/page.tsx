@@ -156,8 +156,8 @@ const ContactUsPage = () => {
                   Reservations at Grand Regent
                 </AccordionTrigger>
                 <AccordionContent className="text-lg font-semibold text-secondary-gr">
-                  Thamel Marg, Thamel-26, Kathmandu 44600, Nepal <br /> Email:
-                  info@grandregent.asia
+                  Thamel Marg, Thamel-26, Kathmandu 44600, Nepal <br />
+                  Phone:+977 9707735420 <br /> Email: info@grandregent.asia
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
