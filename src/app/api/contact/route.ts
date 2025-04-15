@@ -17,8 +17,8 @@ export async function POST(request: Request) {
 
     // Email options
     const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: "contactgrandregent@gmail.com",
+      from: "contactgrandregent@gmail.com",
+      to: "info@grandregent.asia",
       subject: `New Contact: ${subject}`,
       html: `
         <h1>New Contact Form Submission</h1>
