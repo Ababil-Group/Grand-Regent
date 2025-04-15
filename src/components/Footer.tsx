@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="basis-full space-y-3 py-10 lg:basis-[33%] lg:px-12 lg:py-3">
           <p className="text-lg font-medium">
             <Link
-              href="https://maps.app.goo.gl/ZyS4TvxwHhm9kRGE7"
+              href="https://maps.app.goo.gl/EnNZKjKH581HgMP99"
               target="_blank"
             >
               Thamel Marg, Thamel-26, Kathmandu 44600, Nepal
