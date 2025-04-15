@@ -61,7 +61,7 @@ const SpecialOffersPage = () => {
             </h6>
             <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
               <strong>contact us via email at </strong>
-              📧 Email: info@grandregent.eu Terms and conditions apply.
+              📧 Email: info@grandregent.asia Terms and conditions apply.
             </p>
           </div>
           <div className="min-h-screen w-full bg-escape-bg bg-cover bg-fixed bg-center bg-no-repeat lg:min-h-full"></div>

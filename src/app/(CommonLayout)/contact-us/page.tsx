@@ -78,7 +78,7 @@ const ContactUsPage = () => {
             EMAIL US
           </h3>
           <p className="mb-7 text-center text-lg font-medium text-secondary-gr">
-            info@grandregent.eu
+            info@grandregent.asia
           </p>
 
           <form className="mx-auto max-w-2xl space-y-5" onSubmit={handleSubmit}>
@@ -157,7 +157,7 @@ const ContactUsPage = () => {
                 </AccordionTrigger>
                 <AccordionContent className="text-lg font-semibold text-secondary-gr">
                   Thamel Marg, Thamel-26, Kathmandu 44600, Nepal <br /> Email:
-                  info@grandregent.eu
+                  info@grandregent.asia
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
