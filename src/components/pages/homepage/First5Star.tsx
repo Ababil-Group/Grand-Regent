@@ -8,11 +8,11 @@ const First5Star = () => {
         </h1>
 
         <p className="mb-4 text-lg font-medium text-secondary-gr">
-          Description: The Grand Regent is an exquisite luxury boutique hotel
-          situated in the vibrant city of Kathmandu, Nepal. The hotel promotes a
-          lively and sophisticated ambiance by featuring elegantly designed
-          suites and a distinctive assortment of contemporary art from both
-          local Nepalese and international creators. Guests can indulge in
+          The Grand Regent is an exquisite luxury boutique
+          hotel situated in the vibrant city of Kathmandu, Nepal. The hotel
+          promotes a lively and sophisticated ambiance by featuring elegantly
+          designed suites and a distinctive assortment of contemporary art from
+          both local Nepalese and international creators. Guests can indulge in
           dining at the rooftop restaurant and bar, which includes an outdoor
           garden terrace offering breathtaking views of the Himalayas. For
           relaxation and wellness, the Grand Regent boasts a spa, a fully

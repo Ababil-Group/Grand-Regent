@@ -69,8 +69,7 @@ const InfinityPoolPage = () => {
           </p>
           <p className="mb-2 text-center text-lg font-medium text-secondary-gr">
             With the warm weather, it’s important to stay hydrated. Feel free to
-            order your favorite cocktail from our iconic rooftop restaurant and
-            bar, Azure Terrace.
+            order your favorite cocktail from our iconic restaurant and bar.
           </p>
         </div>
       </section>

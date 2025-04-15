@@ -18,9 +18,9 @@ const SpecialOffersPage = () => {
       <section className="py-20">
         <div className="container space-y-5">
           <p className="text-center text-lg font-medium text-secondary-gr">
-            Experience the essence of Odder at Grand Regent, where you can take
-            advantage of all the amenities this top-notch boutique hotel
-            provides.
+            Experience the essence of Kathmandu at Grand Regent, where you can
+            take advantage of all the amenities this top-notch
+            boutique hotel provides.
           </p>
           <p className="text-center text-lg font-medium text-secondary-gr">
             Check out our latest special deals!

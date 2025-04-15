@@ -43,12 +43,12 @@ const AccommodationsPage = () => {
           <div className="space-y-20">
             <div>
               <h3 className="mb-2 text-3xl font-bold text-secondary-gr">
-                City Haven
+                City Heaven
               </h3>
               <p className="mb-7 text-lg font-medium text-secondary-gr">
-                Room Description: This refined space features a luxurious
-                king-size bed, a connected kitchen, a dining area, and a lounge,
-                with the flexibility to expand into a two-bedroom.
+                This refined space features a luxurious king-size bed, a
+                connected kitchen, a dining area, and a lounge, with the
+                flexibility to expand into a two-bedroom.
               </p>
 
               <div className="flex flex-col items-center gap-20 lg:flex-row">
@@ -81,7 +81,7 @@ const AccommodationsPage = () => {
 
             <div>
               <h3 className="mb-2 text-3xl font-bold text-secondary-gr">
-                City Haven Plus
+                City Heaven Plus
               </h3>
               <p className="mb-7 text-lg font-medium text-secondary-gr">
                 This inviting space features a luxurious king-size bed and an
@@ -199,7 +199,7 @@ const AccommodationsPage = () => {
               <p className="mb-7 text-lg font-medium text-secondary-gr">
                 Our most spacious accommodations feature super king beds,
                 bathrooms filled with natural light, and the option to connect
-                with a City Haven for a two-bedroom experience.
+                with a City Heaven for a two-bedroom experience.
               </p>
 
               <div className="flex flex-col items-center gap-20 lg:flex-row">
@@ -229,7 +229,7 @@ const AccommodationsPage = () => {
                     Option to add an extra bed for additional comfort
                   </p>
                   <p className="mb-4 text-lg font-medium text-secondary-gr">
-                    Ability to interconnect with a City Haven through a private
+                    Ability to interconnect with a City Heaven through a private
                     entrance foyer to create a two-bedroom layout
                   </p>
                 </div>
